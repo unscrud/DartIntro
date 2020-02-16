@@ -9,6 +9,14 @@ class Bicycle {
   String toString() => 'Bicycle: $_speed mph';
 
   int get speed => _speed;
+
+  void applyBrake(int decrement) {
+    _speed -= decrement;
+  }
+
+  void speedUp(int increment) {
+    _speed += increment;
+  }
 }
 
 void main() {
