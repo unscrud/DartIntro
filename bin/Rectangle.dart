@@ -12,4 +12,9 @@ class Rectangle {
       'Origin (${origin.x}, ${origin.y}), width: $width, height: $height';
 }
 
-main() {}
+main() {
+  print(Rectangle(origin: const Point(10, 20), width: 100, height: 200));
+  print(Rectangle(origin: const Point(10, 10)));
+  print(Rectangle(width: 100));
+  print(Rectangle());
+}
