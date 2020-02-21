@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "Dart",
-            "program": "bin/Rectangle.dart",
+            "program": "bin/Shapes.dart",
             "request": "launch",
             "type": "dart"
         }
