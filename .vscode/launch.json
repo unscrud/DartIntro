@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "Dart",
-            "program": "bin/Shapes.dart",
+            "program": "bin/scream.dart",
             "request": "launch",
             "type": "dart"
         }
